@@ -13,7 +13,7 @@ A FizzBuzzWhizz game for java.
 
 输入 3,5,7 输出（片段）
 
-  1
+  `1
   2
   Fizz
   4
@@ -34,6 +34,4 @@ A FizzBuzzWhizz game for java.
   19
   Buzz 
   …
-  
-  ```
-  一直到100
+  一直到100`
