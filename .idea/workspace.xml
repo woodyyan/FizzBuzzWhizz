@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5879483b-5985-487e-9ce0-a46396cbb003" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/thoughtworks/BuzzHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/thoughtworks/WhizzHandler.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="FizzBuzzWhizz.iws" />
@@ -29,12 +29,9 @@
       <file leaf-file-name="Application.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/thoughtworks/Application.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-              <folding>
-                <element signature="e#97#98#0" expanded="true" />
-                <element signature="e#144#145#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="45">
+              <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -42,14 +39,16 @@
       <file leaf-file-name="FizzHandlerTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/thoughtworks/FizzHandlerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="3" column="23" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="23" />
-              <folding />
+            <state relative-caret-position="362">
+              <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BuzzHandlerTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BuzzHandlerTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/thoughtworks/BuzzHandlerTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="242">
@@ -57,6 +56,16 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WhizzHandler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/thoughtworks/WhizzHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -71,18 +80,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Task.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/task/Task.md">
-          <provider editor-type-id="MarkdownFxPreviewEditor">
-            <state />
+      <file leaf-file-name="BuzzHandler.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/thoughtworks/BuzzHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+              <folding />
+            </state>
           </provider>
-          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="330">
-                <caret line="22" column="15" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
-                <folding />
-              </first_editor>
-              <second_editor />
+        </entry>
+      </file>
+      <file leaf-file-name="WhizzHandlerTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/thoughtworks/WhizzHandlerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="9" column="78" selection-start-line="9" selection-start-column="78" selection-end-line="9" selection-end-column="78" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -106,32 +121,6 @@
             <state split_layout="FIRST">
               <first_editor relative-caret-position="330">
                 <caret line="22" column="40" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FizzBuzzWhizz.iml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FizzBuzzWhizz.iml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider editor-type-id="MarkdownFxPreviewEditor">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="120">
-                <caret line="8" column="70" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="70" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -177,12 +166,15 @@
         <option value="$PROJECT_DIR$/task/task.md" />
         <option value="$PROJECT_DIR$/src/main/java/com/thoughtworks/ddd.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/thoughtworks/Jav.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/thoughtworks/FizzHandlerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/thoughtworks/FizzHandler.java" />
-        <option value="$PROJECT_DIR$/task/Task.md" />
         <option value="$PROJECT_DIR$/src/test/java/com/thoughtworks/BuzzHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/thoughtworks/BuzzHandler.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/thoughtworks/BuzzHandlerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/thoughtworks/WhizzHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/thoughtworks/WhizzHandler.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/thoughtworks/WhizzHandlerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/thoughtworks/FizzHandlerTest.java" />
+        <option value="$PROJECT_DIR$/task/Task.md" />
       </list>
     </option>
   </component>
@@ -463,7 +455,7 @@
       <recent name="$PROJECT_DIR$/task" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BuzzHandlerTest.shouldNotReturnBuzzWhenNumberIsNotTimesOfFive">
+  <component name="RunManager" selected="JUnit.WhizzHandlerTest.shouldNotReturnWhizzWhenNumberIsNotTimesOfSeven">
     <configuration default="false" name="FizzHandlerTest.shouldNotReturnFizzWhenNumberIsTimesOfThree" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -478,52 +470,6 @@
       <option name="MAIN_CLASS_NAME" value="com.thoughtworks.FizzHandlerTest" />
       <option name="METHOD_NAME" value="shouldNotReturnFizzWhenNumberIsTimesOfThree" />
       <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="FizzHandler" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.thoughtworks.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.thoughtworks.FizzHandler" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="FizzBuzzWhizz" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="FizzHandlerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.thoughtworks.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="FizzBuzzWhizz" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.thoughtworks" />
-      <option name="MAIN_CLASS_NAME" value="com.thoughtworks.FizzHandlerTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -575,6 +521,58 @@
       <option name="PACKAGE_NAME" value="com.thoughtworks" />
       <option name="MAIN_CLASS_NAME" value="com.thoughtworks.BuzzHandlerTest" />
       <option name="METHOD_NAME" value="shouldNotReturnBuzzWhenNumberIsNotTimesOfFive" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="WhizzHandlerTest.shouldReturnWhizzWhenNumberIsTimesOfSeven" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.thoughtworks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="FizzBuzzWhizz" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.thoughtworks" />
+      <option name="MAIN_CLASS_NAME" value="com.thoughtworks.WhizzHandlerTest" />
+      <option name="METHOD_NAME" value="shouldReturnWhizzWhenNumberIsTimesOfSeven" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="WhizzHandlerTest.shouldNotReturnWhizzWhenNumberIsNotTimesOfSeven" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.thoughtworks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="FizzBuzzWhizz" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.thoughtworks" />
+      <option name="MAIN_CLASS_NAME" value="com.thoughtworks.WhizzHandlerTest" />
+      <option name="METHOD_NAME" value="shouldNotReturnWhizzWhenNumberIsNotTimesOfSeven" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -1020,18 +1018,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.FizzHandlerTest.shouldNotReturnFizzWhenNumberIsTimesOfThree" />
-      <item index="1" class="java.lang.String" itemvalue="Application.FizzHandler" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.FizzHandlerTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.BuzzHandlerTest.shouldReturnBuzzWhenNumberIsTimesOfFive" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.BuzzHandlerTest.shouldNotReturnBuzzWhenNumberIsNotTimesOfFive" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.BuzzHandlerTest.shouldReturnBuzzWhenNumberIsTimesOfFive" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.BuzzHandlerTest.shouldNotReturnBuzzWhenNumberIsNotTimesOfFive" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.WhizzHandlerTest.shouldReturnWhizzWhenNumberIsTimesOfSeven" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.WhizzHandlerTest.shouldNotReturnWhizzWhenNumberIsNotTimesOfSeven" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.BuzzHandlerTest.shouldNotReturnBuzzWhenNumberIsNotTimesOfFive" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.BuzzHandlerTest.shouldReturnBuzzWhenNumberIsTimesOfFive" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.FizzHandlerTest.shouldNotReturnFizzWhenNumberIsTimesOfThree" />
-        <item index="3" class="java.lang.String" itemvalue="Application.FizzHandler" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.FizzHandlerTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.WhizzHandlerTest.shouldNotReturnWhizzWhenNumberIsNotTimesOfSeven" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.WhizzHandlerTest.shouldReturnWhizzWhenNumberIsTimesOfSeven" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.BuzzHandlerTest.shouldNotReturnBuzzWhenNumberIsNotTimesOfFive" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.BuzzHandlerTest.shouldReturnBuzzWhenNumberIsTimesOfFive" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.FizzHandlerTest.shouldNotReturnFizzWhenNumberIsTimesOfThree" />
       </list>
     </recent_temporary>
   </component>
@@ -1047,7 +1045,7 @@
       <updated>1466498705278</updated>
       <workItem from="1466498706508" duration="5390000" />
       <workItem from="1466573900516" duration="417000" />
-      <workItem from="1466575605418" duration="7292000" />
+      <workItem from="1466575605418" duration="7896000" />
     </task>
     <servers />
   </component>
@@ -1064,27 +1062,27 @@
     <history-entry file="BuzzHandlerTest_shouldNotReturnBuzzWhenNumberIsNotTimesOfFive - 2016.06.22 at 16h 43m 48s.xml">
       <configuration name="BuzzHandlerTest.shouldNotReturnBuzzWhenNumberIsNotTimesOfFive" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BuzzHandlerTest_shouldReturnBuzzWhenNumberIsTimesOfFive - 2016.06.22 at 16h 37m 37s.xml">
-      <configuration name="BuzzHandlerTest.shouldReturnBuzzWhenNumberIsTimesOfFive" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BuzzHandlerTest_shouldReturnBuzzWhenNumberIsTimesOfFive - 2016.06.22 at 16h 38m 52s.xml">
-      <configuration name="BuzzHandlerTest.shouldReturnBuzzWhenNumberIsTimesOfFive" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="BuzzHandlerTest_shouldReturnBuzzWhenNumberIsTimesOfFive - 2016.06.22 at 16h 39m 00s.xml">
       <configuration name="BuzzHandlerTest.shouldReturnBuzzWhenNumberIsTimesOfFive" configurationId="JUnit" />
     </history-entry>
     <history-entry file="BuzzHandlerTest_shouldReturnBuzzWhenNumberIsTimesOfFive - 2016.06.22 at 16h 39m 59s.xml">
       <configuration name="BuzzHandlerTest.shouldReturnBuzzWhenNumberIsTimesOfFive" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FizzHandlerTest - 2016.06.22 at 16h 33m 11s.xml">
-      <configuration name="FizzHandlerTest" configurationId="JUnit" />
+    <history-entry file="WhizzHandlerTest_shouldNotReturnWhizzWhenNumberIsNotTimesOfSeven - 2016.06.22 at 16h 52m 40s.xml">
+      <configuration name="WhizzHandlerTest.shouldNotReturnWhizzWhenNumberIsNotTimesOfSeven" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FizzHandlerTest_shouldNotReturnFizzWhenNumberIsTimesOfThree - 2016.06.22 at 16h 34m 27s.xml">
-      <configuration name="FizzHandlerTest.shouldNotReturnFizzWhenNumberIsTimesOfThree" configurationId="JUnit" />
+    <history-entry file="WhizzHandlerTest_shouldReturnWhizzWhenNumberIsTimesOfSeven - 2016.06.22 at 16h 47m 54s.xml">
+      <configuration name="WhizzHandlerTest.shouldReturnWhizzWhenNumberIsTimesOfSeven" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WhizzHandlerTest_shouldReturnWhizzWhenNumberIsTimesOfSeven - 2016.06.22 at 16h 49m 05s.xml">
+      <configuration name="WhizzHandlerTest.shouldReturnWhizzWhenNumberIsTimesOfSeven" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WhizzHandlerTest_shouldReturnWhizzWhenNumberIsTimesOfSeven - 2016.06.22 at 16h 49m 34s.xml">
+      <configuration name="WhizzHandlerTest.shouldReturnWhizzWhenNumberIsTimesOfSeven" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13099000" />
+    <option name="totallyTimeSpent" value="13703000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="808" extended-state="6" />
@@ -1098,7 +1096,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1144,7 +1142,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1199,7 +1199,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1236,17 +1238,6 @@
             <folding />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/thoughtworks/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding>
-            <element signature="e#97#98#0" expanded="true" />
-            <element signature="e#144#145#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1317,17 +1308,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/task/Task.md">
-      <provider editor-type-id="MarkdownFxPreviewEditor">
-        <state />
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/Assert.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="79" column="23" selection-start-line="79" selection-start-column="23" selection-end-line="79" selection-end-column="23" />
+          <folding />
+        </state>
       </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="330">
-            <caret line="22" column="15" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
-            <folding />
-          </first_editor>
-          <second_editor />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/thoughtworks/WhizzHandlerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="9" column="78" selection-start-line="9" selection-start-column="78" selection-end-line="9" selection-end-column="78" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/thoughtworks/FizzHandlerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/thoughtworks/BuzzHandlerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1339,37 +1354,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/thoughtworks/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/thoughtworks/WhizzHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task/Task.md">
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="150">
+            <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/thoughtworks/BuzzHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+        <state relative-caret-position="150">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/Assert.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="79" column="23" selection-start-line="79" selection-start-column="23" selection-end-line="79" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/thoughtworks/FizzHandlerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="3" column="23" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/thoughtworks/BuzzHandlerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
