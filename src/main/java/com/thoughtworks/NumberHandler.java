@@ -2,15 +2,15 @@ package com.thoughtworks;
 
 public abstract class NumberHandler {
 
-    private NumberHandler nexthandler;
+    private NumberHandler nextHandler;
 
     public abstract String getNumber(int number);
 
     public NumberHandler getNextHandler() {
-        return nexthandler;
+        return nextHandler;
     }
 
-    public void setNexthandler(NumberHandler handler){
-        this.nexthandler = handler;
+    public void setNextHandler(NumberHandler handler){
+        this.nextHandler = handler;
     }
 }

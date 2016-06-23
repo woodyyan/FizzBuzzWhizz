@@ -1,7 +1,5 @@
 package com.thoughtworks;
 
-import org.xml.sax.helpers.*;
-
 public class Application {
     public static void main(String[] args) {
 
@@ -14,16 +12,17 @@ public class Application {
         FizzWhizzHandler fizzWhizzHandler = new FizzWhizzHandler();
         FizzBuzzWhizzHandler fizzBuzzWhizzHandler = new FizzBuzzWhizzHandler();
 
-        defaultFizzHandler.setNexthandler(fizzBuzzWhizzHandler);
-        fizzBuzzWhizzHandler.setNexthandler(fizzBuzzHandler);
-        fizzBuzzHandler.setNexthandler(fizzWhizzHandler);
-        fizzWhizzHandler.setNexthandler(buzzWhizzHandler);
-        buzzWhizzHandler.setNexthandler(buzzHandler);
-        buzzHandler.setNexthandler(fizzHandler);
-        fizzHandler.setNexthandler(whizzHandler);
+        defaultFizzHandler.setNextHandler(fizzBuzzWhizzHandler);
+        fizzBuzzWhizzHandler.setNextHandler(fizzBuzzHandler);
+        fizzBuzzHandler.setNextHandler(fizzWhizzHandler);
+        fizzWhizzHandler.setNextHandler(buzzWhizzHandler);
+        buzzWhizzHandler.setNextHandler(buzzHandler);
+        buzzHandler.setNextHandler(fizzHandler);
+        fizzHandler.setNextHandler(whizzHandler);
 
-        int number = 35;
-        String result = defaultFizzHandler.getNumber(number);
-        System.out.print(result);
+        for (int number = 1; number <= 105; number++) {
+            String result = defaultFizzHandler.getNumber(number);
+            System.out.println(result);
+        }
     }
 }
