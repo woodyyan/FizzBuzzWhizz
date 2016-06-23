@@ -7,13 +7,13 @@ public class DefaultFizzHandler extends NumberHandler {
         } else if (number % 100 / 10 == 3) {
             return "Fizz";
         }
-        return null;
+        return String.valueOf(number);
     }
 
     @Override
     public String getNumber(int number) {
         String result = getFizz(number);
-        if (result == null){
+        if (result != "Fizz" && getNextHandler() != null) {
             return getNextHandler().getNumber(number);
         }
         return result;

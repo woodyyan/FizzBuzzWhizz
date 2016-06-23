@@ -22,7 +22,7 @@ public class Application {
         buzzHandler.setNexthandler(fizzHandler);
         fizzHandler.setNexthandler(whizzHandler);
 
-        int number = 15;
+        int number = 35;
         String result = defaultFizzHandler.getNumber(number);
         System.out.print(result);
     }

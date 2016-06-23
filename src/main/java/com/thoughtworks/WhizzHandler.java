@@ -5,13 +5,13 @@ public class WhizzHandler extends NumberHandler {
         if (number % 7 == 0) {
             return "Whizz";
         }
-        return null;
+        return String.valueOf(number);
     }
 
     @Override
     public String getNumber(int number) {
         String result = getWhizz(number);
-        if (result == null){
+        if (result != "Whizz" && getNextHandler() != null) {
             return getNextHandler().getNumber(number);
         }
         return result;

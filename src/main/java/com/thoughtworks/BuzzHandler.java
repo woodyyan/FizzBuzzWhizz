@@ -6,13 +6,13 @@ public class BuzzHandler extends NumberHandler {
             return "Buzz";
         }
 
-        return null;
+        return String.valueOf(number);
     }
 
     @Override
     public String getNumber(int number) {
         String result = getBuzz(number);
-        if (result == null){
+        if (result != "Buzz" && getNextHandler() != null){
             return getNextHandler().getNumber(number);
         }
         return result;
