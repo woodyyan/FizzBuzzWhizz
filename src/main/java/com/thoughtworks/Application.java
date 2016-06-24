@@ -1,27 +1,17 @@
 package com.thoughtworks;
 
+import java.util.logging.Handler;
+
 public class Application {
     public static void main(String[] args) {
 
-        DefaultFizzHandler defaultFizzHandler = new DefaultFizzHandler();
-        FizzHandler fizzHandler = new FizzHandler();
-        BuzzHandler buzzHandler = new BuzzHandler();
-        WhizzHandler whizzHandler = new WhizzHandler();
-        FizzBuzzHandler fizzBuzzHandler = new FizzBuzzHandler();
-        BuzzWhizzHandler buzzWhizzHandler = new BuzzWhizzHandler();
-        FizzWhizzHandler fizzWhizzHandler = new FizzWhizzHandler();
-        FizzBuzzWhizzHandler fizzBuzzWhizzHandler = new FizzBuzzWhizzHandler();
-
-        defaultFizzHandler.setNextHandler(fizzBuzzWhizzHandler);
-        fizzBuzzWhizzHandler.setNextHandler(fizzBuzzHandler);
-        fizzBuzzHandler.setNextHandler(fizzWhizzHandler);
-        fizzWhizzHandler.setNextHandler(buzzWhizzHandler);
-        buzzWhizzHandler.setNextHandler(buzzHandler);
-        buzzHandler.setNextHandler(fizzHandler);
-        fizzHandler.setNextHandler(whizzHandler);
+        Teacher teacher = new Teacher();
+        BaseHandler handler = teacher.sayRule();
 
         for (int number = 1; number <= 105; number++) {
-            String result = defaultFizzHandler.getResult(number);
+            Student student = new Student();
+            student.setHandler(handler);
+            String result = student.answer(number);
             System.out.println(result);
         }
     }
