@@ -21,7 +21,7 @@ public class Application {
         fizzHandler.setNextHandler(whizzHandler);
 
         for (int number = 1; number <= 105; number++) {
-            String result = defaultFizzHandler.getNumber(number);
+            String result = defaultFizzHandler.getResult(number);
             System.out.println(result);
         }
     }

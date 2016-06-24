@@ -1,16 +1,13 @@
 package com.thoughtworks;
 
-public abstract class NumberHandler {
+public class NumberHandler extends BaseHandler {
+    @Override
+    public String getResult(int number) {
+        String result = String.valueOf(number);
 
-    private NumberHandler nextHandler;
-
-    public abstract String getNumber(int number);
-
-    public NumberHandler getNextHandler() {
-        return nextHandler;
-    }
-
-    public void setNextHandler(NumberHandler handler){
-        this.nextHandler = handler;
+        if (getNextHandler() != null) {
+            return getNextHandler().getResult(number);
+        }
+        return result;
     }
 }

@@ -1,20 +1,17 @@
 package com.thoughtworks;
 
-public class DefaultFizzHandler extends NumberHandler {
-    public String getFizz(int number) {
-        if (number % 10 == 3) {
-            return "Fizz";
-        } else if (number % 100 / 10 == 3) {
-            return "Fizz";
-        }
-        return String.valueOf(number);
-    }
+public class DefaultFizzHandler extends BaseHandler {
 
     @Override
-    public String getNumber(int number) {
-        String result = getFizz(number);
+    public String getResult(int number) {
+        String result = String.valueOf(number);
+        if (number % 10 == 3) {
+            result = "Fizz";
+        } else if (number % 100 / 10 == 3) {
+            result = "Fizz";
+        }
         if (result != "Fizz" && getNextHandler() != null) {
-            return getNextHandler().getNumber(number);
+            return getNextHandler().getResult(number);
         }
         return result;
     }

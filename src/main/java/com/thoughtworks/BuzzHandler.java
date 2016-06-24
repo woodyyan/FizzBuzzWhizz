@@ -1,19 +1,16 @@
 package com.thoughtworks;
 
-public class BuzzHandler extends NumberHandler {
-    public String getBuzz(int number) {
-        if (number % 5 == 0) {
-            return "Buzz";
-        }
-
-        return String.valueOf(number);
-    }
+public class BuzzHandler extends BaseHandler {
 
     @Override
-    public String getNumber(int number) {
-        String result = getBuzz(number);
-        if (result != "Buzz" && getNextHandler() != null){
-            return getNextHandler().getNumber(number);
+    public String getResult(int number) {
+        String result = String.valueOf(number);
+        if (number % 5 == 0) {
+            result = "Buzz";
+        }
+
+        if (result != "Buzz" && getNextHandler() != null) {
+            return getNextHandler().getResult(number);
         }
         return result;
     }

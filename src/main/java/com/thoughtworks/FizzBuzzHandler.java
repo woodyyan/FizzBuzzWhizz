@@ -1,18 +1,15 @@
 package com.thoughtworks;
 
-public class FizzBuzzHandler extends NumberHandler {
-    public String getFizzBuzz(int number) {
-        if (number % 3 == 0 && number % 5 == 0) {
-            return "FizzBuzz";
-        }
-        return String.valueOf(number);
-    }
+public class FizzBuzzHandler extends BaseHandler {
 
     @Override
-    public String getNumber(int number) {
-        String result = getFizzBuzz(number);
+    public String getResult(int number) {
+        String result = String.valueOf(number);
+        if (number % 3 == 0 && number % 5 == 0) {
+            result = "FizzBuzz";
+        }
         if (result != "FizzBuzz" && getNextHandler() != null) {
-            return getNextHandler().getNumber(number);
+            return getNextHandler().getResult(number);
         }
         return result;
     }
