@@ -1,7 +1,5 @@
 package com.thoughtworks;
 
-import java.util.logging.Handler;
-
 public class Application {
     public static void main(String[] args) {
 

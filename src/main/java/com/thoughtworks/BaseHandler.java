@@ -6,11 +6,11 @@ public abstract class BaseHandler {
 
     public abstract String getResult(int number);
 
-    public BaseHandler getNextHandler() {
+    public final BaseHandler getNextHandler() {
         return nextHandler;
     }
 
-    public void setNextHandler(BaseHandler handler){
+    public final void setNextHandler(final BaseHandler handler) {
         this.nextHandler = handler;
     }
 }

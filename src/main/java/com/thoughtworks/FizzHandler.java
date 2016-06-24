@@ -1,11 +1,12 @@
 package com.thoughtworks;
 
 public class FizzHandler extends BaseHandler {
+    private final int fizzNumber = 3;
 
     @Override
-    public String getResult(int number) {
+    public final String getResult(final int number) {
         String result = String.valueOf(number);
-        if (number % 3 == 0) {
+        if (number % fizzNumber == 0) {
             result = "Fizz";
         }
         if (result != "Fizz" && getNextHandler() != null) {
