@@ -1,7 +1,7 @@
 package com.thoughtworks;
 
-public class Teacher {
-    public final BaseHandler sayRule() {
+class Teacher {
+    final BaseHandler sayRule() {
         DefaultFizzHandler defaultFizzHandler = new DefaultFizzHandler();
         FizzHandler fizzHandler = new FizzHandler();
         BuzzHandler buzzHandler = new BuzzHandler();

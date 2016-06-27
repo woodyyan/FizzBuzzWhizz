@@ -10,7 +10,7 @@ public abstract class BaseHandler {
         return nextHandler;
     }
 
-    public final void setNextHandler(final BaseHandler handler) {
+    public void setNextHandler(BaseHandler handler) {
         this.nextHandler = handler;
     }
 }

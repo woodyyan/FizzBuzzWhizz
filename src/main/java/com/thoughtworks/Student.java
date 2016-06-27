@@ -1,13 +1,13 @@
 package com.thoughtworks;
 
-public class Student {
+class Student {
     private BaseHandler handler;
 
-    public final void setHandler(final BaseHandler baseHandler) {
+    final void setHandler(final BaseHandler baseHandler) {
         this.handler = baseHandler;
     }
 
-    public final String answer(final int number) {
+    final String answer(final int number) {
         if (handler != null) {
             return handler.getResult(number);
         }

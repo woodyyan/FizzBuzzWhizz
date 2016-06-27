@@ -1,6 +1,6 @@
 package com.thoughtworks;
 
-public class NumberHandler extends BaseHandler {
+class NumberHandler extends BaseHandler {
 
     @Override
     public final String getResult(final int number) {

@@ -1,16 +1,16 @@
 package com.thoughtworks;
 
-public class BuzzWhizzHandler extends BaseHandler {
-    private final int buzzNumber = 5;
-    private final int whizzNumber = 7;
+class BuzzWhizzHandler extends BaseHandler {
 
     @Override
     public final String getResult(final int number) {
         String result = String.valueOf(number);
+        int buzzNumber = 5;
+        int whizzNumber = 7;
         if (number % buzzNumber == 0 && number % whizzNumber == 0) {
             result = "BuzzWhizz";
         }
-        if (result != "BuzzWhizz" && getNextHandler() != null) {
+        if (!result.equals("BuzzWhizz") && getNextHandler() != null) {
             return getNextHandler().getResult(number);
         }
         return result;
